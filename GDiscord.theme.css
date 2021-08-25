@@ -2,7 +2,7 @@
  * @name GDiscord
  * @author GamerDisclaimer#7467
  * @description Sample dark-purple discord theme
- * @version 0.1
+ * @version 0.1.1
  */
 
 /* Importing Icons  */
@@ -50,6 +50,11 @@ username-1A8OIy {
   --background-floating: var(--background);
   --channeltextarea-background: var(--background);
   --textbox-markdown-syntax: var(--background);
+}
+
+code {
+  background-color: var(--highlight);
+  border-radius: 3px;
 }
 
 .newMessagesBar-265mhP {
