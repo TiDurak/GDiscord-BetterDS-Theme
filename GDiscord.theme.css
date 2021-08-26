@@ -2,11 +2,11 @@
  * @name GDiscord
  * @author GamerDisclaimer#7467
  * @description Sample dark-purple discord theme
- * @version 0.2.1
+ * @version 0.2.2
  */
 
 /* Main Import */
-@import url(https://raw.githubusercontent.com/TiDurak/GDiscord-BetterDS-Theme/main/src/main.css);
+@import url(https://tidurak.github.io/gdiscord.css);
 
 /* Importing Icons  */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
