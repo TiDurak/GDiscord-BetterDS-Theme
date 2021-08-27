@@ -1,15 +1,14 @@
-username-1A8OIy {
-  font-weight: bold;
-}
 :root {
-  --highlight: rgb(164, 94, 255);
-  --settingsicons: 1;
-  --background: rgb(15, 3, 24) !important; /* The main background color */
-  --close-button: var(--dnd-color) !important;
-  --online-color: #79ff61 !important; /* The color used in the "online" user status symbol */
-  --afk-color: rgb(255, 255, 93) !important; /* The color used in the "idle" user status symbol */
-  --dnd-color: rgb(255, 57, 57) !important; /* The color used in the "do not disturb" user status symbol */
-  --streaming-color: #d15cff !important; /* The color used in the "streaming X" user status symbol */
+  --highlight:        rgb(164, 94, 255);                /* Highlight color */
+  --background:       rgb(15, 3, 24) !important;        /* The main background color */
+  --server-scroller-back: rgb(10, 0, 18);               /* Server Scroller Color */
+  --channel-scroller-back: rgb(24, 0, 43);              /* Channel Scroller */
+  --settingsicons:    1;                                /* Icons in the settings menu. Set value to 0 for disabling */
+  --close-button:     var(--dnd-color) !important;      /* Close button */
+  --online-color:     #79ff61 !important;               /* The color used in the "online" user status symbol */
+  --afk-color:        rgb(255, 255, 93) !important;     /* The color used in the "idle" user status symbol */
+  --dnd-color:        rgb(255, 57, 57) !important;      /* The color used in the "do not disturb" user status symbol */
+  --streaming-color:  #d15cff !important;               /* The color used in the "streaming X" user status symbol */
   --rs-online-color: var(--online-color);
   --rs-idle-color: var(--afk-color);
   --rs-dnd-color: var(--dnd-color);
@@ -45,6 +44,14 @@ username-1A8OIy {
 code {
   background-color: var(--highlight);
   border-radius: 3px;
+}
+
+.typeWindows-1za-n7 {
+  background-color: var(--background);
+}
+
+.grid-1nZz7S {
+  background-color: var(--channel-scroller-back);
 }
 
 .scroller-1Bvpku {
@@ -329,18 +336,6 @@ code {
   border: 2px solid var(--highlight);
 }
 
-.scroller-RmtA4e {
-  border: 2px solid var(--highlight);
-  border-top: 0;
-  border-radius: 0px 0px 8px 8px;
-}
-
-.header-2V-4Sw {
-  border: 2px solid var(--highlight);
-  border-bottom: 0;
-  border-radius: 8px 8px 0px 0px;
-}
-
 #bd-pub-button {
   color: var(--highlight);
   font-weight: thin;
@@ -403,16 +398,4 @@ code {
 
 .item-2hkk8m {
   background-color: var(--highlight);
-}
-
-
-
-:root {
-  /* Enabling Radial Status Support */
-  --rs-online-color: var(--online-color) !important;
-  --rs-idle-color: var(--afk-color) !important;
-  --rs-dnd-color: var(--dnd-color) !important;
-  --rs-offline-color: gray !important;
-  --rs-invisible-color: gray !important;
-  --rs-streaming-color: var(--stream-color) !important;
 }

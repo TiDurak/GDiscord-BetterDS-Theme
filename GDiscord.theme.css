@@ -2,7 +2,7 @@
  * @name GDiscord
  * @author GamerDisclaimer#7467
  * @description Sample dark-purple discord theme
- * @version 0.2.2
+ * @version 0.3.0
  */
 
 /* Main Import */
@@ -15,11 +15,10 @@
 
 /* Customize colors HERE */
 :root {
-
   --highlight:        rgb(164, 94, 255);                /* Highlight color */
   --background:       rgb(15, 3, 24) !important;        /* The main background color */
   --server-scroller-back: rgb(10, 0, 18);               /* Server Scroller Color */
-  --channel-scroller-back: rgb(24, 0, 43);
+  --channel-scroller-back: rgb(24, 0, 43);              /* Channel Scroller */
   --settingsicons:    1;                                /* Icons in the settings menu. Set value to 0 for disabling */
   --close-button:     var(--dnd-color) !important;      /* Close button */
   --online-color:     #79ff61 !important;               /* The color used in the "online" user status symbol */
