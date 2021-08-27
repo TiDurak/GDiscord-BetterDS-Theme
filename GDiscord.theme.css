@@ -18,6 +18,8 @@
 
   --highlight:        rgb(164, 94, 255);                /* Highlight color */
   --background:       rgb(15, 3, 24) !important;        /* The main background color */
+  --server-scroller-back: rgb(10, 0, 18);               /* Server Scroller Color */
+  --channel-scroller-back: rgb(24, 0, 43);
   --settingsicons:    1;                                /* Icons in the settings menu. Set value to 0 for disabling */
   --close-button:     var(--dnd-color) !important;      /* Close button */
   --online-color:     #79ff61 !important;               /* The color used in the "online" user status symbol */
